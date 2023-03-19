@@ -13,6 +13,6 @@ public class PomeloController {
 
     @GetMapping
     public String get() {
-        return "不好吃的柚子";
+        return "很甜的柚子";
     }
 }
