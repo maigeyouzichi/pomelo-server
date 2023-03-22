@@ -13,6 +13,6 @@ public class PomeloController {
 
     @GetMapping
     public String get() {
-        return "你好,Java";
+        return "你好,Java!";
     }
 }
