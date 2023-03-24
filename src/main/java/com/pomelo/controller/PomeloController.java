@@ -22,6 +22,6 @@ public class PomeloController {
     @PostMapping("/notify/scanpay")
     public String parseScanPayNotifyResult(String xmlData) {
         log.info("微信支付回调数据:{}", xmlData);
-        return xmlData;
+        return "success";
     }
 }
