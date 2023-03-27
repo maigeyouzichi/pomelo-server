@@ -13,11 +13,11 @@ public class WxPayNoticeReq implements Serializable {
 
     private String id;
 //    @JsonProperty("create_time")
-    private String createTime;
+    private String create_time;
 //    @JsonProperty("resource_type")
-    private String resourceType;
+    private String resource_type;
 //    @JsonProperty("event_type")
-    private String eventType;
+    private String event_type;
     private String summary;
     private Resource resource;
 

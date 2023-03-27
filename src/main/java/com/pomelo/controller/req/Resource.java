@@ -9,10 +9,10 @@ import lombok.Data;
 public class Resource {
 
 //    @JsonProperty("original_type")
-    private String originalType;
+    private String original_type;
     private String algorithm;
     private String ciphertext;
 //    @JsonProperty("associated_data")
-    private String associatedData;
+    private String associated_data;
     private String nonce;
 }
