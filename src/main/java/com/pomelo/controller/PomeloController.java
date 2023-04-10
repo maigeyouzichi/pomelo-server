@@ -19,7 +19,7 @@ public class PomeloController {
 
     @GetMapping
     public String get() {
-        return "coding me";
+        return "Hi, i am pomelo-server, build by jenkins !";
     }
 
     @PostMapping("/notify/scanpay")
